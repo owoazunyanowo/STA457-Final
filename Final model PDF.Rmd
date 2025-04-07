@@ -1360,7 +1360,7 @@ ggplot(df_plot_extended, aes(x = ds)) +
 # ---------------------------------------
 # Four month forecast of data against actual values
 # ---------------------------------------
-# Note that this requires refitting the data with a train set, and testing against the test set. That is done on line  # 223 of the file (preparing prophet data). Only use the code below to test split data. If the model is fit with all   # the data, do not use the code below.
+# Note that this requires refitting the data with a train set, and testing against the test set. That is done on line  # 296-305 of the file (preparing prophet data). Only use the code below to test split data. If the model is fit with all   # the data, do not use the code below.
  
 #forecast_comparison = df_prophet_complete$y[324:327]
 # Test set against actual values (close up)
