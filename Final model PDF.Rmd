@@ -5,7 +5,7 @@ output:
    latex_engine: xelatex
   
 ---
-
+# Code created by group 7: Aiden Soo, Megh Agarwal, Vinh Lam Diep, and Zifan Feng
 # 1. Setup and Package Installation
 
 In this section, we install all the necessary R packages required for time series forecasting, machine learning models, and visualization.
